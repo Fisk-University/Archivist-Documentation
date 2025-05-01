@@ -133,6 +133,10 @@ This documentation is maintained with replication in mind. If your institution b
 
 ---
 
-📄 License: 
+## License
 
-This documentation is part of the Rosenwald Project at Fisk University. Funded by the Mellon Foundation.
+This documentation is published under the [Server Side Public License (SSPL-1.0)](https://www.mongodb.com/legal/licensing/server-side-public-license).
+
+---
+
+Built with ❤️ by LaTaevia Berry for Fisk University and HBCUs nationwide
