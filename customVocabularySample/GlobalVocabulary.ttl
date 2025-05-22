@@ -1,0 +1,110 @@
+@prefix rfc: <https://rosenwald.fisk.edu/GlobalVocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Define the vocabulary class
+rfc:Rosenwald_Fund_Collection a rdfs:Class ;
+    rdfs:label "Rosenwald Fund Collection" ;
+    rdfs:comment "The Rosenwald Fund Collection" .
+
+rfc:schoolNames a rdf:Property ;
+    rdfs:label "School Name" ;
+    rdfs:comment "The official name of the school" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:alternateSchoolNames a rdf:Property ;
+    rdfs:label "Alternate School Name(s)" ;
+    rdfs:comment "Any alternate names or variations used for the school" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:county a rdf:Property ;
+    rdfs:label "County" ;
+    rdfs:comment "The county where the school is located" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:state a rdf:Property ;
+    rdfs:label "State" ;
+    rdfs:comment "The state where the school is located" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:yearOfEstablishment a rdf:Property ;
+    rdfs:label "Year of Establishment" ;
+    rdfs:comment "The year the school was established" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:acreage a rdf:Property ;
+    rdfs:label "Acreage" ;
+    rdfs:comment "The total land area of the school property, measured in acres" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:latitude a rdf:Property ;
+    rdfs:label "Latitude" ;
+    rdfs:comment "The geographic latitude of the school" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:longitude a rdf:Property ;
+    rdfs:label "Longitude" ;
+    rdfs:comment "The geographic longitude of the school" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:itemNumber a rdf:Property ;
+    rdfs:label "Item Number" ;
+    rdfs:comment "Archival indexing of the fund card" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+    
+rfc:applicationNumber a rdf:Property ;
+    rdfs:label "Application Number" ;
+    rdfs:comment "Indexing of the numerical application that led to funding for the school" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:teacherType a rdf:Property ;
+    rdfs:label "Teacher Type" ;
+    rdfs:comment "Number of teachers the school had" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:totalCost a rdf:Property ;
+    rdfs:label "Total Cost" ;
+    rdfs:comment "Total cost of funding the school" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:negroesContribution a rdf:Property ;
+    rdfs:label "Negroes Contribution" ;
+    rdfs:comment "Total funding from the local African American community" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:whitesContribution a rdf:Property ;
+    rdfs:label "Whites Contribution" ;
+    rdfs:comment "Total funding from the local European American community" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:publicContribution a rdf:Property ;
+    rdfs:label "Public Contribution" ;
+    rdfs:comment "Total funding from the public" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:rosenwaldContribution a rdf:Property ;
+    rdfs:label "Rosenwald Contribution" ;
+    rdfs:comment "Total funding from the Julius Rosenwald Fund" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
+
+rfc:demographic a rdf:Property ;
+    rdfs:label "Demographic" ;
+    rdfs:comment "Race or ethnicity of aid applicant" ;
+    rdfs:domain rfc:Rosenwald_Fund_Collection ;
+    rdfs:range rdfs:Literal .
