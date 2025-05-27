@@ -33,7 +33,7 @@ This can be a simple HTML page that explains what the vocabulary is. For example
    
 ## Customizing Your Vocabulary
 
-The .ttl sample file follows the [turtle](https://json-ld.org/) format. You can:
+The .ttl sample file follows the [turtle](https://teams.microsoft.com/l/message/19:8f6fcbca-d07e-4100-bd22-3dd890360df5_908cace1-c4f0-4944-9895-8c6bc73c3d35@unq.gbl.spaces/1748371390278?context=%7B%22contextType%22%3A%22chat%22%7D) format. You can:
 - Edit or replace term labels and URIs.
 - Add or remove fields relevant to your collection.
 - Include descriptions, comments, or examples for each term.
@@ -48,7 +48,7 @@ The .ttl sample file follows the [turtle](https://json-ld.org/) format. You can:
 
 Example structure: 
 
- 
+ ```
 @prefix rfc: <https://yourinstitution.edu/omeka/vocab/yourcollection#> . <br> 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . <br>
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
@@ -69,6 +69,8 @@ your:CreatedBy a rdf:Property ; <br>
     rdfs:comment "The person or organization that created the item." ; <br>
     rdfs:domain rdf:Resource ; <br>
     rdfs:range xsd:string . <br>
+```
+
 We recommend validating any modified files before importing them into your Omeka-S instance.
 
 
