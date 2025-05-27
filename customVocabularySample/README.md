@@ -42,33 +42,33 @@ The .ttl sample file follows the [turtle](https://json-ld.org/) format. You can:
 
 1. Open the sample Turtle file provided by the project team. Review the file’s structure, prefixes, and property definitions. 
 2. Edit the sample to reflect your collection’s needs: 
-### a. Update the namespace URI to match your institution’s vocabulary location. 
-### b. Replace sample properties (e.g., Identifier, CreatedBy) with terms relevant to your archive. 
-### c. Add or remove terms, labels, comments, and expected data types as needed. 
+    a. Update the namespace URI to match your institution’s vocabulary location. 
+    b. Replace sample properties (e.g., Identifier, CreatedBy) with terms relevant to your archive. 
+    c. Add or remove terms, labels, comments, and expected data types as needed. 
 
 Example structure: 
 
  
-@prefix rfc: <https://yourinstitution.edu/omeka/vocab/yourcollection#> . 
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix rfc: <https://yourinstitution.edu/omeka/vocab/yourcollection#> . <br> 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . <br>
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
  
-<https://yourinstitution.edu/omeka/vocab/yourcollection> 
-    a rdf:Property ; 
-    rdfs:label "Your Collection Vocabulary" ; 
+<https://yourinstitution.edu/omeka/vocab/yourcollection> <br>
+    a rdf:Property ; <br>
+    rdfs:label "Your Collection Vocabulary" ; <br>
     rdfs:comment "Custom vocabulary for describing items in Your Collection." . 
  
-your:Identifier a rdf:Property ; 
-    rdfs:label "Identifier" ; 
-    rdfs:comment "A unique identifier for the item." ; 
-    rdfs:domain rdf:Resource ; 
+your:Identifier a rdf:Property ; <br>
+    rdfs:label "Identifier" ; <br>
+    rdfs:comment "A unique identifier for the item." ; <br>
+    rdfs:domain rdf:Resource ; <br>
     rdfs:range xsd:string . 
  
-your:CreatedBy a rdf:Property ; 
-    rdfs:label "Created By" ; 
-    rdfs:comment "The person or organization that created the item." ; 
-    rdfs:domain rdf:Resource ; 
-    rdfs:range xsd:string . 
+your:CreatedBy a rdf:Property ; <br>
+    rdfs:label "Created By" ; <br>
+    rdfs:comment "The person or organization that created the item." ; <br>
+    rdfs:domain rdf:Resource ; <br>
+    rdfs:range xsd:string . <br>
 We recommend validating any modified files before importing them into your Omeka-S instance.
 
 
