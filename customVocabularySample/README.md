@@ -27,7 +27,7 @@ This can be a simple HTML page that explains what the vocabulary is. For example
   <p>This namespace defines custom properties used in the YourCollection archival project at Your University.</p> 
 </body> 
 </html> 
-  
+  ```
    4. Please review the “GlobalVocabulary.html” file for a full example.
    5. Ensure the URL resolves in a browser, even if it’s a static page. Omeka S does not parse the HTML, it just requires a valid, resolvable URI for semantic integrity. 
    
