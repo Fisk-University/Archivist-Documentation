@@ -48,28 +48,28 @@ The .ttl sample file follows the [turtle](https://teams.microsoft.com/l/message/
 
 Example structure: 
 
- ```
-@prefix rfc: <https://yourinstitution.edu/omeka/vocab/yourcollection#> . <br> 
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . <br>
+ <pre>```
+@prefix rfc: <https://yourinstitution.edu/omeka/vocab/yourcollection#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
  
-<https://yourinstitution.edu/omeka/vocab/yourcollection> <br>
-    a rdf:Property ; <br>
-    rdfs:label "Your Collection Vocabulary" ; <br>
+<https://yourinstitution.edu/omeka/vocab/yourcollection> 
+    a rdf:Property ; 
+    rdfs:label "Your Collection Vocabulary" ; 
     rdfs:comment "Custom vocabulary for describing items in Your Collection." . 
  
-your:Identifier a rdf:Property ; <br>
-    rdfs:label "Identifier" ; <br>
-    rdfs:comment "A unique identifier for the item." ; <br>
-    rdfs:domain rdf:Resource ; <br>
+your:Identifier a rdf:Property ; 
+    rdfs:label "Identifier" ; 
+    rdfs:comment "A unique identifier for the item." ; 
+    rdfs:domain rdf:Resource ; 
     rdfs:range xsd:string . 
  
-your:CreatedBy a rdf:Property ; <br>
-    rdfs:label "Created By" ; <br>
-    rdfs:comment "The person or organization that created the item." ; <br>
-    rdfs:domain rdf:Resource ; <br>
-    rdfs:range xsd:string . <br>
-```
+your:CreatedBy a rdf:Property ; 
+    rdfs:label "Created By" ; 
+    rdfs:comment "The person or organization that created the item." ; 
+    rdfs:domain rdf:Resource ; 
+    rdfs:range xsd:string . 
+```</pre>
 
 We recommend validating any modified files before importing them into your Omeka-S instance.
 
