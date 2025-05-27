@@ -18,7 +18,7 @@ By using these examples as a guide, archivists can create their own turtle(.ttl)
 [https://yourinstitution.edu/omeka/vocab/yourCollection](https://yourinstitution.edu/omeka/vocab/rosenwald)
 
 This can be a simple HTML page that explains what the vocabulary is. For example: 
-
+```
 <!DOCTYPE html> 
 <html> 
 <head><title>YourCollection Vocabulary</title></head> 
