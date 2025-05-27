@@ -12,7 +12,7 @@ By using these examples as a guide, archivists can create their own turtle(.ttl)
 
 ## Customizing Your Vocabulary
 
-Each sample file follows the [JSON-LD](https://json-ld.org/) format. You can:
+Each sample file follows the [turtle](https://json-ld.org/) format. You can:
 - Edit or replace term labels and URIs.
 - Add or remove fields relevant to your collection.
 - Include descriptions, comments, or examples for each term.
