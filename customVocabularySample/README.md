@@ -6,22 +6,7 @@ This folder contains sample custom vocabularies for use with [Omeka-S](https://o
 
 Archivists often need vocabularies tailored to specific institutions, communities, metadata properties or collection types. This folder provides example files as a starting point to help users define their own controlled vocabularies in Omeka-S using the proper structure and format.
 
-By using these examples as a guide, archivists can create their own RDF/JSON-LD vocabularies to support custom metadata fields, controlled term lists, or local cataloging practices.
-
----
-
-## How to Install a Custom Vocabulary in Omeka-S
-
-1. Download one of the example `.json` vocabulary files from this folder.
-2. Log in to your Omeka S admin dashboard.
-3. Navigate to:  
-   **Admin > Vocabularies**
-4. Click the **“Import”** button.
-5. Upload the `.json` file you downloaded.
-6. Click **“Import Vocabulary”** to complete the installation.
-
-**Watch the step-by-step tutorial:**  
-[**Omeka S Vocabularies – Vimeo Video**](https://vimeo.com/449764902)
+By using these examples as a guide, archivists can create their own turtle(.ttl) vocabularies to support custom metadata fields, controlled term lists, or local cataloging practices.
 
 ---
 
@@ -36,6 +21,23 @@ We recommend validating any modified files before importing them into your Omeka
 
 
 ---
+
+## How to Install a Custom Vocabulary in Omeka-S
+
+1. Download one of the example `.json` vocabulary files from this folder.
+2. Log in to your Omeka-S admin dashboard.
+3. Navigate to:  
+   **Admin > Vocabularies**
+4. Click the **“Import”** button.
+5. Upload the `.json` file you downloaded.
+6. Click **“Import Vocabulary”** to complete the installation.
+
+**Watch the step-by-step tutorial:**  
+[**Omeka S Vocabularies – Vimeo Video**](https://vimeo.com/449764902)
+
+---
+
+
 
 
 For questions or custom implementation support, please reach out to the project team or refer to your institution’s digital archivist or Omeka-S administrator.
