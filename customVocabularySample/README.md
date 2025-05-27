@@ -48,7 +48,7 @@ The .ttl sample file follows the [turtle](https://teams.microsoft.com/l/message/
 
 Example structure: 
 
- <pre>```
+ <pre>
 @prefix rfc: <https://yourinstitution.edu/omeka/vocab/yourcollection#> . 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
@@ -69,7 +69,7 @@ your:CreatedBy a rdf:Property ;
     rdfs:comment "The person or organization that created the item." ; 
     rdfs:domain rdf:Resource ; 
     rdfs:range xsd:string . 
-```</pre>
+</pre>
 
 We recommend validating any modified files before importing them into your Omeka-S instance.
 
@@ -84,7 +84,7 @@ We recommend validating any modified files before importing them into your Omeka
 4. Add your Namespace URI 
 5. Add a Namespace prefix 
 6. Upload the .ttl file you just created. 
-7. Click “Import\” to complete the installation. 
+7. Click “Import” to complete the installation. 
 8. Omeka will parse and register your vocabulary under your namespace. 
 
 **Watch the step-by-step tutorial:**  
