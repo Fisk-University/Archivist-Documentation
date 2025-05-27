@@ -69,8 +69,9 @@ your:CreatedBy a rdf:Property ;
     rdfs:comment "The person or organization that created the item." ; 
     rdfs:domain rdf:Resource ; 
     rdfs:range xsd:string . 
-    ```
-    
+
+ ```
+
 We recommend validating any modified files before importing them into your Omeka-S instance.
 
 
