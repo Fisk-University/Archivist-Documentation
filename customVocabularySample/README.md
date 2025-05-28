@@ -2,6 +2,9 @@
 
 This folder contains sample custom vocabularies for use with [Omeka-S](https://omeka.org/s/), designed to help archivists and librarians enhance metadata precision and consistency in their digital collections.
 
+**Watch the step-by-step tutorial:**  
+[**Omeka S Vocabularies – Vimeo Video**](https://vimeo.com/449764902)
+
 ## Purpose
 
 Archivists often need vocabularies tailored to specific institutions, communities, metadata properties or collection types. This folder provides example files as a starting point to help users define their own controlled vocabularies in Omeka-S using the proper structure and format.
