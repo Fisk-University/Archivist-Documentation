@@ -46,7 +46,7 @@ The .ttl sample file follows the [turtle](https://www.w3.org/TR/turtle/) format.
 1. Open the sample Turtle file provided by the project team. Review the file’s structure, prefixes, and property definitions. 
 2. Edit the sample to reflect your collection’s needs: 
     a. Update the namespace URI to match your institution’s vocabulary location. 
-    b. Replace sample properties (e.g., Identifier, CreatedBy) with terms relevant to your archive. 
+    b. Replace sample properties (e.g., Identifier, CreatedBy, State, County) with terms relevant to your archive. 
     c. Add or remove terms, labels, comments, and expected data types as needed. 
 
 Example structure: 
@@ -88,7 +88,7 @@ We recommend validating any modified files before importing them into your Omeka
 5. Add a Namespace prefix 
 6. Upload the .ttl file you just created. 
 7. Click “Import” to complete the installation. 
-8. Omeka will parse and register your vocabulary under your namespace. 
+8. Omeka will parse and register your vocabulary under your namespace prefix. 
 
 **Watch the step-by-step tutorial:**  
 [**Omeka S Vocabularies – Vimeo Video**](https://vimeo.com/449764902)
@@ -100,8 +100,8 @@ We recommend validating any modified files before importing them into your Omeka
 
 ## Notes & Best Practices 
 
-* Custom HTML URI: Even though using an RDF document would be more semantically linked-data-compliant, your HTML approach is fine for internal vocabularies. The key is that the URI resolves. 
+* Custom HTML URI: Even though using an RDF document would be more semantically linked-data-compliant, using an HTML approach is fine for internal vocabularies. The key is that the URI resolves. 
 * URI Stability: Never change the namespace URI once in use. Items referencing these properties will break if the URI changes. 
-* Turtle Validation: Before uploading, you can validate your Turtle file using [W3C RDF Validator](https://www.w3.org/RDF/Validator/) or tools like [RDF Translator](https://rdf-translator.appspot.com/). 
+* Turtle Validation: Before uploading, you can validate your Turtle file using an online Validator of your choosing. 
 
 
