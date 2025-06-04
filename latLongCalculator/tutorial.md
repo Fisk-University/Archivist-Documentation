@@ -25,7 +25,7 @@ Must contain the following four pre-filled columns:
 - Longitude
 
 ## How to Run the Macro
----
+
 
 - On "Sheet1" Click the "Run Lat/Long Calculator" button
 - After a few seconds you will see a success prompt "Latitude and Longitude added successfully!"
