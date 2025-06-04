@@ -1,55 +1,52 @@
 # Description
-This Excel macro is designed to help archivists and researchers automatically add Latitude and Longitude coordinates to datasets based on State and County values. It uses a reference worksheet containing geolocation mappings and appends the resulting coordinates to the main data sheet without overwriting any existing data.
+add Latitude and Longitude coordinates to csv metadata spreadsheets based on State and County values. It uses a reference worksheet containing geolocation mappings sourced from [U.S. Census Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html) and appends the resulting coordinates to the main data sheet without overwriting any existing data.
 
 ## How to Enable Macros in Excel
-Before using the macro, ensure macros are enabled:
 
-Open Excel and go to File > Options > Trust Center > Trust Center Settings.
-
-Click Macro Settings and select “Enable all macros”.
-
-Save and re-open the file if needed.
-
-When opening the .xlsm file, click "Enable Content" if prompted.
+- When opening the Lat-LongCalculator.xlsm file, click "Enable Macros" if prompted with "This workbook contains macros. Do you want to disable macros before opening the file?".
 
 ## Required Inputs
  ### Main Data Sheet (Named: Sheet1)
 A dataset with at least two labeled columns:
 
-State
+- State
 
-County
+- County
 
 ### Reference Data Sheet (Named: ReferenceData)
-Must contain the following four columns:
+Must contain the following four pre-filled columns:
 
-State
+- State
 
-County
+- County
 
-Latitude
+- Latitude
 
-Longitude
+- Longitude
 
 ## How to Run the Macro
-Open the Excel file.
+---
 
-Go to the Developer tab.
+- On "Sheet1" Click the "Run Lat/Long Calculator" button
+- After a few seconds you will see a success prompt "Latitude and Longitude added successfully!"
 
-Click the “Run lat/long calculator”.
+OR
+
+- Go to the Developer tab.
+- Click "Macros"
+- Then click "Run"
+- After a few seconds you will see a success prompt "Latitude and Longitude added successfully!"
 
 
 ## Outputs
-Adds two new columns: Latitude and Longitude
+- Adds two new columns: Latitude and Longitude
 
-Populated using matches from the ReferenceData sheet
-
-
+- Populated using matches from the ReferenceData sheet
 
 
-<br><br>
 
-# Hyperlink to the U.S. government data source for lat/long calculator 
 
-[U.S. Census Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html) 
+
+
+
 
