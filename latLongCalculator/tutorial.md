@@ -3,29 +3,24 @@ add Latitude and Longitude coordinates to csv metadata spreadsheets based on Sta
 
 ## How to Enable Macros in Excel
 
-- When opening the Lat-LongCalculator.xlsm file, click "Enable Macros" if prompted with "This workbook contains macros. Do you want to disable macros before opening the file?".
+- When opening the Lat-LongCalculator.xlsm file, click "Enable Macros" if prompted with "This workbook contains macros. Do you want to disable macros before opening the file?"
 
 ## Required Inputs
- ### Main Data Sheet (Named: Sheet1)
+ ### Main Data Sheet (Titled: Sheet1)
 A dataset with at least two labeled columns:
 
 - State
-
 - County
 
-### Reference Data Sheet (Named: ReferenceData)
+### Reference Data Sheet (Titled: ReferenceData)
 Must contain the following four pre-filled columns:
 
 - State
-
 - County
-
 - Latitude
-
 - Longitude
 
 ## How to Run the Macro
-
 
 - On "Sheet1" Click the "Run Lat/Long Calculator" button
 - After a few seconds you will see a success prompt "Latitude and Longitude added successfully!"
@@ -40,7 +35,6 @@ OR
 
 ## Outputs
 - Adds two new columns: Latitude and Longitude
-
 - Populated using matches from the ReferenceData sheet
 
 

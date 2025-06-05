@@ -17,8 +17,7 @@ By using these examples as a guide, archivists can create their own turtle(.ttl)
 ### Each vocabulary must begin with a unique namespace URI. Here's how to create one: 
    1. Choose a base domain – Use a domain you control (e.g., [https://yourinstitution.edu/omeka/vocab/](https://yourinstitution.edu/omeka/vocab/)). 
    2. Create a namespace identifier – Choose a short, unique name for your vocabulary (e.g., yourCollection). 
-   3. Create a static HTML file at: 
-[https://yourinstitution.edu/omeka/vocab/yourCollection](https://yourinstitution.edu/omeka/vocab/rosenwald)
+   3. Create a static HTML file: (e.g., [https://yourinstitution.edu/omeka/vocab/yourCollection](https://yourinstitution.edu/omeka/vocab/yourCollection))
 
 This can be a simple HTML page that explains what the vocabulary is. For example: 
 ```
@@ -27,7 +26,7 @@ This can be a simple HTML page that explains what the vocabulary is. For example
 <head><title>YourCollection Vocabulary</title></head> 
 <body> 
   <h1>YourCollection Vocabulary</h1> 
-  <p>This namespace defines custom properties used in the YourCollection archival project at Your University.</p> 
+  <p>This namespace defines custom properties used in the YourCollection archival project at your University.</p> 
 </body> 
 </html> 
   ```
@@ -102,6 +101,6 @@ We recommend validating any modified files before importing them into your Omeka
 
 * Custom HTML URI: Even though using an RDF document would be more semantically linked-data-compliant, using an HTML approach is fine for internal vocabularies. The key is that the URI resolves. 
 * URI Stability: Never change the namespace URI once in use. Items referencing these properties will break if the URI changes. 
-* Turtle Validation: Before uploading, you can validate your Turtle file using an online Validator of your choosing. 
+* Turtle Validation: Before uploading, you can validate your Turtle file using an online validator of your choosing. 
 
 
