@@ -110,7 +110,7 @@ We recommend validating any modified files before importing them into your Omeka
 
 ---
 
-##Common Mistakes
+## Common Mistakes
 
 The following issues are the most common causes of import errors or long-term data inconsistencies:
 - Using an incorrect or incomplete namespace URL

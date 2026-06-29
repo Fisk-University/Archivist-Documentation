@@ -1,6 +1,6 @@
 # Common Errors
 
-This document outlines frequently encountered issues during development and deploymen, and their corresponding resolutions. 
+This document outlines frequently encountered issues during development and deployment, and their corresponding resolutions. 
 
 ---
 
