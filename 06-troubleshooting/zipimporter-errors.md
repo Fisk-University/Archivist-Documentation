@@ -83,7 +83,7 @@ Misnaming or non visible char mismatch.
 
 **Resolution**
 
--   Ensure consistant naming
+-   Ensure consistent naming
 -   Use copy paste to ensure accurate naming
 
 ---
@@ -112,7 +112,7 @@ import.zip\
 ├── image1.jpg\
 ├── image2.jpg
 
-- Or for nesting (adding multpile files to one item):
+- Or for nesting (adding multiple files to one item):
 
 import.zip\
 │\
